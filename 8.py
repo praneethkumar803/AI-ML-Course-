@@ -1,0 +1,11 @@
+import cv2
+Img =cv2.imread("nature.png")
+cv2.imshow('Original Image',Img)
+flipping = cv2.flip(Img,1)
+cv2.imshow('Horizontal Flip',flipping)
+flipping = cv2.flip(Img,0)
+cv2.imshow('Vertical Flip',flipping)
+flipping = cv2.flip(Img,-1)
+cv2.imshow('Horizontal&Vertical Flip',flipping)
+cv2.waitKey(5000)
+cv2.destroyAllWindows()

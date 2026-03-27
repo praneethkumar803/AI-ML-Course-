@@ -1,0 +1,13 @@
+pip install opencv-python
+pip install opencv-contrib-python
+pip install imutils
+pip install torch
+pip install torchvision
+pip install facial-emotion-recognition
+pip install pyautogui
+pillow
+
+
+
+
+mail id=arumugaselvamd@gmail.com
